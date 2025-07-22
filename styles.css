@@ -242,6 +242,20 @@ footer {
   max-width: 100%;
 }
 
+.contactInfo {
+  max-width: 50%;
+}
+
+.contactInfo a {
+  color: #e0f7fa;
+  display: inline-block;
+  transition: transform 1s ease-in-out;
+}
+
+.contactInfo a:hover {
+  transform: scale(1.1);
+}
+
 .contactImg img {
   max-height: 100%;
   width: auto;
